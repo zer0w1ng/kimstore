@@ -13,7 +13,7 @@ class POSConfig(models.Model):
             self.update({'iface_printbill': False,
                          'iface_splitbill': False,
                          'is_order_printer': False,
-                         'is_table_management': False,
+                         #'is_table_management': False,
                          'iface_orderline_notes': False,
                          'iface_orderline_pos_order_notes': True})
 
